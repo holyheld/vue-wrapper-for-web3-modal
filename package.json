@@ -1,0 +1,29 @@
+{
+  "name": "vue-wrapper-for-web3-modal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.2.1",
+    "@walletconnect/modal-core": "^2.6.0",
+    "@walletconnect/universal-provider": "^2.9.0",
+    "axios": "^1.4.0",
+    "qrcode": "^1.5.3",
+    "ts-custom-error": "^3.3.1",
+    "vue": "^3.3.4",
+    "web3": "^1.7.4",
+    "web3-core": "^1.7.5"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
+  }
+}
